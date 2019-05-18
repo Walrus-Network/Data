@@ -29,7 +29,7 @@ chat:
 component-configs:
   project-ares:
     maps:
-      selection-mode: auto
+      selection-mode: random
       libraries:
         - path: /maps
           ignored-directories: []
