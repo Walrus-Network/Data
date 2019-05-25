@@ -33,3 +33,6 @@ component-configs:
       libraries:
         - path: /maps
           ignored-directories: []
+  uhc:
+    config-location: /maps/uhc/
+    worlds-root: /persistent-files/uhc/worlds
