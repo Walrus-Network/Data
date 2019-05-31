@@ -89,7 +89,7 @@ spigot:
     verbose: true
     mob-spawn-range: 4
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       hide-blocks:
       - 14
