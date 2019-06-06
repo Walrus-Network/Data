@@ -22,9 +22,16 @@
 chat:
   quick-chat:
     matchers:
-      lol: "Epic message"
-      lucas: "Lucas is a french"
-      jexel: "Rising edge!"
+      help: "Help!"
+      attack: "Attack!"
+      defend: "Defend!"
+      left: "Left Side!"
+      right: "Right Side!"
+      heal: "Need Healing!"
+      nice: "Nice Job!"
+      sorry: "Sorry!"
+      gg: "GG!"
+      ty: "ty"
 
 component-configs:
   project-ares:
