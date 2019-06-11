@@ -23,8 +23,8 @@ generators:
   - prefix: 3k
     count: 4
     size: 3050
-    nether: true
-    end: true
+    nether: false
+    end: false
     start: 0
     stop: 23
     priority: 10
