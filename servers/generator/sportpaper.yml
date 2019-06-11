@@ -201,7 +201,7 @@ paper:
     falling-blocks-collide-with-signs: false
     armor-stands-do-collision-entity-lookups: true
     disable-mood-sounds: false
-    use-async-lighting: true
+    use-async-lighting: false
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
