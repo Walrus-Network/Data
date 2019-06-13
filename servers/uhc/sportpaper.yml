@@ -11,8 +11,8 @@ bukkit:
   spawn-limits:
     monsters: 35
     animals: 26
-    water-animals: 3
-    ambient: 8
+    water-animals: 2
+    ambient: 7
   database:
     username: bukkit
     isolation: SERIALIZABLE
