@@ -10,7 +10,7 @@ bukkit:
     autosave: 6000
   spawn-limits:
     monsters: 35
-    animals: 30
+    animals: 40
     water-animals: 2
     ambient: 7
   database:
