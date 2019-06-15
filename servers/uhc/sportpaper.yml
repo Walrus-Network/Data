@@ -5,14 +5,14 @@ bukkit:
     period-in-ticks: 600
     load-threshold: 0
   ticks-per:
-    animal-spawns: 50
+    animal-spawns: 100
     monster-spawns: 2
     autosave: 6000
   spawn-limits:
     monsters: 35
-    animals: 40
+    animals: 28
     water-animals: 2
-    ambient: 7
+    ambient: 5
   database:
     username: bukkit
     isolation: SERIALIZABLE
