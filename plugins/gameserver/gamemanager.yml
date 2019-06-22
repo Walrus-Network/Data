@@ -43,3 +43,5 @@ component-configs:
   uhc:
     config-location: /maps/uhc/
     worlds-root: /persistent-files/uhc/worlds
+# If the server should automatically shut down after a match ends
+shutdown-after-end: false
