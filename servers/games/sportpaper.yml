@@ -20,7 +20,7 @@ bukkit:
     water-animals: 5
     ambient: 15
   settings:
-    allow-end: true
+    allow-end: false
     warn-on-overload: true
     update-folder: update
     plugin-profilling: false
@@ -36,7 +36,7 @@ spigot:
     bungeecord: false
     late-bind: false
     timeout-time: 60
-    restart-on-crash: true
+    restart-on-crash: false
     restart-script: ./start.sh
     sample-count: 12
     player-shuffle: 0
@@ -56,7 +56,7 @@ spigot:
         max: 2048.0
     save-user-cache-on-stop-only: false
   stats:
-    disable-saving: false
+    disable-saving: true
     forced-stats: {}
   messages:
     restart: Server is restarting
@@ -101,7 +101,7 @@ spigot:
     clear-tick-list: false
     mob-spawn-range: 4
     anti-xray:
-      enabled: true
+      enabled: false
       engine-mode: 1
       hide-blocks:
       - 14
@@ -145,7 +145,7 @@ spigot:
       hopper-check: 8
     hopper-amount: 1
     random-light-updates: false
-    save-structure-info: true
+    save-structure-info: false
     max-bulk-chunks: 10
     max-entity-collisions: 8
     dragon-death-sound-radius: 0
@@ -167,9 +167,9 @@ paper:
     limit-player-interactions: true
     region-file-cache-size: 256
     save-empty-scoreboard-teams: false
-    save-player-data: true
-    tick-empty-worlds: true
-    require-all-plugins: false
+    save-player-data: false
+    tick-empty-worlds: false
+    require-all-plugins: true
     spam-limiter:
       tab-spam-increment: 10
       tab-spam-limit: 500
@@ -192,16 +192,16 @@ paper:
     tnt-entity-height-nerf: 0
     all-chunks-are-slime-chunks: false
     auto-save-interval: -1
-    fix-cannons: false
+    fix-cannons: true
     use-hopper-check: false
     disable-explosion-knockback: false
     grass-spread-tick-rate: 1
     water-over-lava-flow-speed: 5
-    keep-spawn-loaded: true
+    keep-spawn-loaded: false
     falling-blocks-collide-with-signs: false
     armor-stands-do-collision-entity-lookups: true
-    disable-mood-sounds: false
-    use-async-lighting: false
+    disable-mood-sounds: true
+    use-async-lighting: true
     portal-search-radius: 128
     disable-thunder: false
     disable-ice-and-snow: false
@@ -226,15 +226,15 @@ paper:
       flat-bedrock: false
     allow-block-location-tab-completion: true
     player-blocking-damage-multiplier: 0.5
-    remove-invalid-mob-spawner-tile-entities: true
-    optimize-explosions: false
+    remove-invalid-mob-spawner-tile-entities: false
+    optimize-explosions: true
     mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
+    cache-chunk-maps: true
     tnt-explosion-volume: 4.0
-    disable-teleportation-suffocation-check: false
+    disable-teleportation-suffocation-check: true
     use-chunk-inhabited-timer: true
     max-auto-save-chunks-per-tick: 24
-    remove-corrupt-tile-entities: false
+    remove-corrupt-tile-entities: true
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
