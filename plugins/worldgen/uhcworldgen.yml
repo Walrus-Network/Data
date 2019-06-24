@@ -20,9 +20,9 @@
 ###########################################################################
 
 generators:
-  - prefix: 3kp
+  - prefix: 2500
     count: 4
-    size: 3050
+    size: 2550
     nether: false
     end: false
     start: 0
