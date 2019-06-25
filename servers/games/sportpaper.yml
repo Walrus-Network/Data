@@ -9,16 +9,16 @@ bukkit:
     url: jdbc:sqlite:{DIR}{NAME}.db
   ticks-per:
     animal-spawns: 400
-    monster-spawns: 1
+    monster-spawns: 2
     autosave: 6000
   chunk-gc:
-    period-in-ticks: 600
-    load-threshold: 0
+    period-in-ticks: 300
+    load-threshold: 300
   spawn-limits:
-    monsters: 70
-    animals: 15
-    water-animals: 5
-    ambient: 15
+    monsters: 50
+    animals: 10
+    water-animals: 3
+    ambient: 4
   settings:
     allow-end: false
     warn-on-overload: true
@@ -131,9 +131,9 @@ spigot:
       wheat-modifier: 100
       netherwart-modifier: 100
     entity-activation-range:
-      animals: 32
-      monsters: 32
-      misc: 16
+      animals: 6
+      monsters: 16
+      misc: 2
     entity-tracking-range:
       players: 48
       animals: 48
@@ -141,13 +141,13 @@ spigot:
       misc: 32
       other: 64
     ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    hopper-amount: 1
+      hopper-transfer: 24
+      hopper-check: 24
+    hopper-amount: 3
     random-light-updates: false
     save-structure-info: false
     max-bulk-chunks: 10
-    max-entity-collisions: 8
+    max-entity-collisions: 2
     dragon-death-sound-radius: 0
     seed-village: 10387312
     seed-feature: 14357617
@@ -193,9 +193,9 @@ paper:
     all-chunks-are-slime-chunks: false
     auto-save-interval: -1
     fix-cannons: true
-    use-hopper-check: false
+    use-hopper-check: true
     disable-explosion-knockback: false
-    grass-spread-tick-rate: 1
+    grass-spread-tick-rate: 4
     water-over-lava-flow-speed: 5
     keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
@@ -207,12 +207,12 @@ paper:
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
-    container-update-tick-rate: 1
+    container-update-tick-rate: 3
     game-mechanics:
       disable-end-credits: false
       boats-drop-boats: false
       disable-player-crits: false
-      disable-chest-cat-detection: false
+      disable-chest-cat-detection: true
     generator-settings:
       canyon: true
       caves: true
