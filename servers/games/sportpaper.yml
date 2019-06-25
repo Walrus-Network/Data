@@ -197,7 +197,7 @@ paper:
     disable-explosion-knockback: false
     grass-spread-tick-rate: 1
     water-over-lava-flow-speed: 5
-    keep-spawn-loaded: false
+    keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     armor-stands-do-collision-entity-lookups: true
     disable-mood-sounds: true
