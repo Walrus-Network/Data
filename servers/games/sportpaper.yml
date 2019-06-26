@@ -135,7 +135,7 @@ spigot:
       monsters: 16
       misc: 2
     entity-tracking-range:
-      players: 48
+      players: 72
       animals: 48
       monsters: 48
       misc: 32
