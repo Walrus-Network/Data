@@ -138,5 +138,30 @@
     "uuid": "6bec5c3a-4934-4b19-9aa8-c7c569820f7d",
     "name": "Claf",
     "level": 4
+  },
+  {
+    "uuid": "76b83a94-f0c7-4efd-ac0d-3556cff41a9d",
+    "name": "bYuri",
+    "level": 4
+  },
+  {
+    "uuid": "3159ff86-76e2-453c-9ade-5e2ba9918396",
+    "name": "Luis_",
+    "level": 4
+  },
+  {
+    "uuid": "4f89273b-7d68-4173-a3f2-9c4b8451da9b",
+    "name": "drakos_",
+    "level": 4
+  },
+  {
+    "uuid": "bbfac3db-dd46-4996-b936-0e2432f33285",
+    "name": "Valkyh",
+    "level": 4
+  },
+  {
+    "uuid": "e60895f7-f208-4a29-abcb-7c7fdfa8b2e0",
+    "name": "Picajoluna",
+    "level": 4
   }
 ]
